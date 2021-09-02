@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: blue;
+    padding: 2rem 2rem;
+}
+a{
+    color: white;
+    margin: 2rem 2rem;
+    text-decoration: none;
+}
+.container{
+    width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+
+input, label, button{
+    display: block;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+input{
+    margin-bottom: 0.5rem;
+    margin: auto;
+}
+.btn-submit{
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.8rem;
+    color: black;
+    border: none;
+    border-radius: 1rem;
+    background-color: #1be334;
+}
+.output{
+    text-align: center;
+    font-size: larger;
+    margin: 1rem;
+}
