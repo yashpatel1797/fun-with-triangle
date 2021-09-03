@@ -8,9 +8,13 @@ function calculateSumOfSquare(a, b){
 }
 
 function calculateHypotenuse(){
-    let sumOfSquare = calculateSumOfSquare(Number(lenInput[0].value), Number(lenInput[1].value));
-    sumOfSquare = Math.sqrt(sumOfSquare);
-    output.innerText = "Hypotenuse length = " + sumOfSquare;
+    if(Number(lenInput[0].value) > 0 && Number(lenInput[1].value) > 0){
+        let sumOfSquare = calculateSumOfSquare(Number(lenInput[0].value), Number(lenInput[1].value));
+        sumOfSquare = Math.sqrt(sumOfSquare);
+        output.innerText = "Hypotenuse length = " + sumOfSquare;
+    } else{
+        output.innerText = "Enter Positive value";
+    }
 }
 
 btnSubmit.addEventListener("click", calculateHypotenuse);
