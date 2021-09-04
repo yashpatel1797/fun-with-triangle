@@ -2,7 +2,7 @@ const formQuiz = document.querySelector(".form-quiz");
 const submitAnswer = document.querySelector(".btn-submit");
 const output = document.querySelector(".output");
 
-const answer = ["90", "right angled"];
+const answer = ["90", "right angled", "2 congruent sides", "Equilateral"];
 
 function checkAnswer(){
     let score = 0;

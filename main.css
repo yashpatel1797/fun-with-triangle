@@ -43,3 +43,6 @@ input{
     font-size: larger;
     margin: 1rem;
 }
+.lab{
+    display: -webkit-inline-box;
+}
